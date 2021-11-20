@@ -1,15 +1,15 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; // random number between 1 and 6
 
-var randomImgSource1 = "images/dice" + randomNumber1 + ".png"; // string change source of images/dice1.png to Images/dice6.png
+var randomImgSource1 = "images/dice" + randomNumber1 + ".png"; // string change source of images/dice1.png to images/dice6.png
 
-document.querySelectorAll("img")[0].setAttribute("src", randomImgSource1);
+document.querySelectorAll("img")[0].setAttribute("src", randomImgSource1); // changes attribute src for dice
 
 
 // dice 2 random number generator
 
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
-var randomImgSource2 = "images/dice" + randomNumber2 + ".png"; // string from and change source of img to random Images/dice1.png to Images/dice6.png
+var randomImgSource2 = "images/dice" + randomNumber2 + ".png"; // string from and change source of img to random images/dice1.png to images/dice6.png
 
 document.querySelectorAll("img")[1].setAttribute("src", randomImgSource2);
 
