@@ -1,6 +1,6 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1; // random number between 1 and 6
 
-var randomImgSource1 = "images/dice" + randomNumber1 + ".png"; // string change soure of Images/dice1.png to Images/dice6.png
+var randomImgSource1 = "images/dice" + randomNumber1 + ".png"; // string change source of images/dice1.png to Images/dice6.png
 
 document.querySelectorAll("img")[0].setAttribute("src", randomImgSource1);
 
